@@ -3,7 +3,19 @@
 
 #file to add to git: all or one
 
-function autogit {
+
+
+
+function pullgit {
+
+	git pull 
+
+}
+
+
+
+
+function pushgit {
 
 	echo [1] add all files 
 	echo [2] add individual file 
@@ -35,4 +47,4 @@ function autogit {
 
 }
 
-autogit
+pushgit
