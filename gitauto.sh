@@ -5,11 +5,6 @@
 
 function autogit {
 
-
-	echo Please enter path to git folder
-	read gitfolder
-	cd $gitfolder
-
 	echo [1] add all files 
 	echo [2] add individual file 
 	echo 'What would you like to do? ' 
