@@ -22,17 +22,17 @@ function autogit {
 
 
 	if [ $opt =  2 ];then
-		echo "what is the file name?\n"
+		echo "what is the file name"
 		read gitfile
 		git add $gitfile	
 
 	fi
 
 	
-	echo Comments: 
-	read comment
+	echo "Comments: "  
+	read  comment 
 	
-	git commit -m $comment
+	git commit -m " ' $comment '  " 
 
 	git push -u origin master
 		
