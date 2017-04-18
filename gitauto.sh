@@ -39,7 +39,7 @@ function pushgit {
 	echo "Comments: "  
 	read  comment 
 	
-	git commit -m " ' $comment '  " 
+	git commit -m "  $comment   " 
 
 	git push -u origin master
 		
